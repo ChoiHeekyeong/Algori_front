@@ -1,0 +1,67 @@
+.loginFormWrapper {
+    background-color: #CEDAC1;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+
+    .loginFormContents{
+        display: flex;
+        flex-direction: column;
+        // border: 1px solid pink;
+        margin-top: 20vh;
+        width: 40%;
+
+        .loginForm-child{
+            // border: 1px solid green;
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            
+            // justify-content: center;
+        }
+    }
+
+    .loginButtonWrapper{
+        // border: 1px solid green;
+        width: 40%;
+        margin-top: 3vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+
+        .goSignUp{
+            margin-bottom: 0.5vw;
+            cursor: pointer;
+            span{
+                font-size: 1.8rem;
+                color: #A4A0A0;
+            }
+        }
+
+        button{
+            width:20%;
+        }
+    }
+  }
+
+  @media all and (min-width: 320px) {
+    .loginFormWrapper{
+        .loginFormContents{
+            
+
+        }
+    }
+
+  }
+  @media all and (min-width: 768px) {
+ 
+  }
+  @media all and (min-width: 1024px) {
+
+  }
